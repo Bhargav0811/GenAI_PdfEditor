@@ -1,0 +1,66 @@
+{
+  "name": "assist-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.11.4",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.5",
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.26.1",
+    "babel-loader": "^9.1.2",
+    "craiyon": "^2.0.0",
+    "deepai": "^1.0.21",
+    "fs": "^0.0.1-security",
+    "js-base64": "^3.7.5",
+    "jspdf": "^2.5.1",
+    "mdbreact": "^4.27.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^3.3.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^3.6.172",
+    "react": "^17.0.2",
+    "react-autocomplete-input": "^1.0.18",
+    "react-autosuggest": "^10.1.0",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-file-input": "^0.2.5",
+    "react-modal-image": "^2.5.0",
+    "react-notifications": "^1.7.2",
+    "react-pdf": "^7.1.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "replicate": "^0.16.0",
+    "semantic-ui-css": "^2.4.1",
+    "url": "^0.11.1"
+  },
+  "scripts": {
+    "start": "set PORT=4000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

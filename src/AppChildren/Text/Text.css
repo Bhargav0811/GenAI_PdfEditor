@@ -1,0 +1,41 @@
+.textCanvasDiv{
+    display: block; 
+}
+#mainCanvas{
+    position: relative;
+}
+.textDiv{
+    position: relative;
+    width: fit-content;
+}
+.pdfEditorDiv{
+    position: relative;
+}
+.textComponentDiv{
+    position: absolute;
+    top: 0;
+    cursor: move;   
+    left: 0;
+}
+.textComponentDiv:hover{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.textEditor{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 20rem;
+    padding: 2rem;
+    opacity: 0;
+    top: 100%;
+    z-index: 2;
+    background-color: antiquewhite;
+}
+.textEditor:hover{
+    opacity: 1;
+}
+
+.mainCanvasDiv{
+    position: relative;
+}

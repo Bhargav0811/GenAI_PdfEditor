@@ -1,0 +1,90 @@
+.diamondFrameDiv{
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+}
+.item{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#viewerTitle{
+    font-family: 'Poppins', sans-serif;
+    color: #007bff;
+    font-weight: 500;
+    font-size: 1.5rem;
+  
+  }
+
+.accessbilityBtns {
+    right: 1rem;
+    gap: 0.5rem;
+    width: 4.6rem;
+}
+
+.accessbilityBtns>div {
+    font-size: 1.3rem;
+    z-index: 10;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.accessbilityBtns>div:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width:1000px) {
+    .messageDiv {
+        padding: 0.4rem 0 !important;
+    }
+
+    .messagePhoto {
+        text-align: center;
+        scale: 0.8;
+
+    }
+
+    .messageText {
+        font-size: 0.8rem;
+    }
+
+    .messageData {
+        padding: 0 !important;
+        width: 100%;
+        margin-left: -12% !important;
+        margin-top: 5% !important;
+    }
+
+    .messageData th {
+        font-size: 0.6rem;
+        padding: 0 0.2rem !important;
+        line-height: 1;
+    }
+
+    .messageData td {
+        font-size: 0.5rem;
+        padding: 0.2rem !important;
+    }
+
+    .messageSmall {
+        font-size: 0.5rem;
+        padding: 0 0.25rem !important;
+    }
+
+    .accessbilityBtns {
+        top: 6%;
+        right: 0rem;
+        width: auto;
+        gap: 0.2rem;
+    }
+
+    .accessbilityBtns>div {
+        font-size: 0.7rem;
+    }
+
+    #viewerTitle{
+        font-size: 1rem;
+      
+      }
+
+}
